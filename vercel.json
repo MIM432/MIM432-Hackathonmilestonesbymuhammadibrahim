@@ -1,0 +1,9 @@
+{
+  "routes": [
+    { "src": "/static-resume", "dest": "/Milestone1-Milestone2/index.html" },
+    { "src": "/dynamic-resume", "dest": "/Milestone3/index.html" },
+    { "src": "/editable-resume", "dest": "/Milestone4/index.html" },
+    { "src": "/unique-path-resume", "dest": "/Milestone5task1/index.html" },
+    { "src": "/shareable-resume", "dest": "/Milestone5task2/index.html" }
+  ]
+}
