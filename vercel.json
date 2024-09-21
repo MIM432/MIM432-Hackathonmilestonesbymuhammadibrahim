@@ -1,7 +1,6 @@
 {
   "routes": [
     { "src": "/milestone1", "dest": "/Milestone1-Milestone2/index.html" },
-    { "src": "/milestone2", "dest": "/Milestone1-Milestone2/index.html" },
     { "src": "/milestone3", "dest": "/Milestone3/index.html" },
     { "src": "/milestone4", "dest": "/Milestone4/index.html" },
     { "src": "/milestone5task1", "dest": "/Milestone5task1/index.html" },
