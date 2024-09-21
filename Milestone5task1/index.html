@@ -1,0 +1,74 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume Builder</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Milstone: 5 Unique Path Task # 1 By Muhammad Ibrahim</h1>
+    
+    <form id="resumeForm">
+        <fieldset>
+            <legend>Personal Information </legend>
+
+<label for="cvname"> CV URL: </label>
+<input type="text" id="cvname" name="cvname" required/> <br>            
+
+            <label for="firstName">First Name: </label>
+            <input type="text" id="firstName" name="firstName" required><br>
+
+            <label for="lastName">Last Name: </label>
+            <input type="text" id="lastName" name="lastName" required><br>
+
+            <label for="fatherName">Father Name: </label>
+            <input type="text" id="fatherName" name="fatherName" required><br>
+
+            <label for="cnicNo">Cnic No: </label>
+            <input type="text" id="cnicNo" name="cnicNo" maxlength="13" required><br>
+
+            <label for="email">Email: </label>
+            <input type="email" id="email" name="email" required><br>
+
+            <label for="contactNumber">Contact Number: </label>
+            <input type="tel" id="contactNumber" name="contactNumber" maxlength="11" required><br>
+      
+      
+<!--Profile Picture-->
+          <label for="profilePicture">Profile Picture </label>
+          <input type="file" id="profilePicture" name="profilePicture" accept="image/*" required><br>
+
+
+        </fieldset>
+
+<fieldset>
+    <legend>Education</legend>
+    <label for="education">Education</label>
+    <textarea id="education" name="education" rows="3" required> </textarea> <br>
+</fieldset>
+
+
+
+<fieldset>
+    <legend>Work Experience</legend>
+    <label for="workExperience">Work Experience</label>
+    <textarea id="workExperience" name="workExperience" rows="3" required> </textarea> <br>
+</fieldset>
+
+<fieldset>
+    <legend>Skills</legend>
+    <label for="skills">Skills</label>
+    <textarea id="skills" name="skills" rows="3" required> </textarea> <br>
+</fieldset>
+
+<button type="submit"> Generate Resume Below </button>
+    </form>
+    
+
+    <div id="resumeOutput">
+        <!-- Resume Will Be Generated Below -->
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
