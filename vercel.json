@@ -1,9 +1,10 @@
 {
   "routes": [
-    { "src": "/static-resume", "dest": "/Milestone1-Milestone2/index.html" },
-    { "src": "/dynamic-resume", "dest": "/Milestone3/index.html" },
-    { "src": "/editable-resume", "dest": "/Milestone4/index.html" },
-    { "src": "/unique-path-resume", "dest": "/Milestone5task1/index.html" },
-    { "src": "/shareable-resume", "dest": "/Milestone5task2/index.html" }
+    { "src": "/milestone1", "dest": "/Milestone1-Milestone2/index.html" },
+    { "src": "/milestone2", "dest": "/Milestone1-Milestone2/index.html" },
+    { "src": "/milestone3", "dest": "/Milestone3/index.html" },
+    { "src": "/milestone4", "dest": "/Milestone4/index.html" },
+    { "src": "/milestone5task1", "dest": "/Milestone5task1/index.html" },
+    { "src": "/milestone5task2", "dest": "/Milestone5task2/index.html" }
   ]
 }
